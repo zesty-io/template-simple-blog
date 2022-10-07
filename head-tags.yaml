@@ -1,0 +1,31 @@
+
+  - type: "meta"
+    attributes:
+      content: "yes"
+      name: "apple-mobile-web-app-capable"
+    sort: 0
+  - type: "meta"
+    attributes:
+      content: "IE=edge"
+      http-equiv: "X-UA-Compatible"
+    sort: 0
+  - type: "link"
+    attributes:
+      href: "https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+      rel: "stylesheet"
+    sort: 5
+  - type: "meta"
+    attributes:
+      content: "black"
+      name: "apple-mobile-web-app-status-bar-style"
+    sort: 0
+  - type: "link"
+    attributes:
+      href: "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.css"
+      rel: "stylesheet"
+    sort: 4
+  - type: "meta"
+    attributes:
+      content: "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+      name: "viewport"
+    sort: 0

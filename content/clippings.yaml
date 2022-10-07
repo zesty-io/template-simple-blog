@@ -1,0 +1,21 @@
+
+  - id: "ce27-5cfd-f6b5"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+    data:
+      footer: "<p>All rights Reserved!</p>"
+      logo: "https://6xpkf3z0.media.zestyio.com/zesty-io-logo-dark.png"
+      site_name: "Bulma Simple Blog Starter"

@@ -1,0 +1,106 @@
+
+  - description: null
+    label: "Clippings"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+      - name: "footer"
+        label: "Footer Text"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: true
+        relationship: null
+        settings:
+          list: false
+  - description: null
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "description"
+        label: "Description"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+  - description: ""
+    label: "Articles"
+    name: "articles"
+    sort: 100
+    listed: true
+    hasRoute: true
+    showAsTable: true
+    parent: null
+    view: "/views/articles.tpl"
+    content: "/content/articles.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 0
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "body"
+        label: "Body"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "image"
+        label: "Image"
+        description: ""
+        datatype: "images"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          list: true

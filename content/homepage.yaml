@@ -1,0 +1,20 @@
+
+  - id: "c405-eb25-ee07"
+    web:
+      metaDescription: ""
+      metaTitle: "Homepage"
+      metaLinkText: "Homepage"
+      metaKeywords: null
+      pathPart: "zesty_home"
+      path: "/"
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 0
+      listed: true
+    data:
+      description: "<p>This is an example starter template on Zesty that uses the Bulma CSS Framework <a href=\"https://bulma.io/\">https://bulma.io/</a> with Font Awesome 4 <a href=\"https://fontawesome.com/v4/icons/\">https://fontawesome.com/v4/icons/</a></p>\n<p></p>"
+      title: "Simple Blog Starter with Bulma"
