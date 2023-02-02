@@ -3,7 +3,7 @@
 <div class="notification is-dark content">
     {{this.description}}
 </div>
-<h2 class="title is-4">Latest Posts</h2>
+<h2 class="title is-4">Blog Posts</h2>
 <div class="columns">
     (** example of how to loop through articles **)
     {{each articles as article}}
@@ -11,7 +11,7 @@
         <div class="card">
             <header class="card-header">
                 <p class="card-header-title">
-                    <a href="{{article.getURL()}}">{{article.seo_meta_title}}</a>
+                    <a href="{{article.getURL()}}">{{article.title}}</a>
                 </p>
             </header>
             <div class="card-image">
@@ -24,7 +24,7 @@
                 <div class="content">
                     {{article.body.substr(0,200)}}...
                     <br>
-                    <time datetime="{{article.created_at}}">{{article.created_at}}</time>
+                    <p><span>Date:</span> <time datetime="{{article.created_at}}">{{article.created_at.date(M j, Y)}}</time></p>
                 </div>
             </div>
             <footer class="card-footer">
@@ -32,5 +32,5 @@
             </footer>
         </div>
     </div>
-    {{end-each}}
+    {{/each}}
 </div>

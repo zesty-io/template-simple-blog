@@ -21,8 +21,8 @@
         </a>
         <div class="navbar-dropdown is-boxed">
             {{each articles as article limit 5}}
-                <a class="navbar-item" href="{{article.getURL()}}">{{article.seo_meta_title}}</a>
-            {{end-each}}
+                <a class="navbar-item" href="{{article.getURL()}}">{{article.title}}</a>
+            {{/each}}
         </div>
       </div>
     </div>

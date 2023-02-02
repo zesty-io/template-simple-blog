@@ -1,6 +1,6 @@
 
   - description: null
-    label: "Clippings"
+    label: "Globals"
     name: "clippings"
     sort: 1
     listed: true
