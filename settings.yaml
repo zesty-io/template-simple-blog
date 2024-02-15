@@ -181,7 +181,7 @@
 - category: "security"
   key: "x_frame_options"
   keyFriendly: "Header: X-Frame-Options"
-  value: ""
+  value: null
   admin: null
   parsleyAccess: null
   dataType: "text"
@@ -298,7 +298,7 @@
 - category: "security"
   key: "headless_authorization_key"
   keyFriendly: "Headless Endpoint Authorization Secret Key"
-  value: ""
+  value: null
   admin: null
   parsleyAccess: null
   dataType: "text"
@@ -307,7 +307,7 @@
 - category: "security"
   key: "authorization_key"
   keyFriendly: "Full WebEngine Authorization Secret Key"
-  value: ""
+  value: null
   admin: null
   parsleyAccess: null
   dataType: "text"
@@ -334,7 +334,7 @@
 - category: "security"
   key: "basic_content_api_key"
   keyFriendly: "Basic Content API Key"
-  value: ""
+  value: null
   admin: null
   parsleyAccess: null
   dataType: "text"
